@@ -1,5 +1,5 @@
 {
-	"name": "shora/testPackage",
+	"name": "shora/test-package",
 	"description" : " this is a simple test package ",
 	"type": "library",
 	"license": "MIT",
