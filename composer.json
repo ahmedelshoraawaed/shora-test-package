@@ -1,0 +1,20 @@
+{
+	"name": "shora/testPackage",
+	"description" : " this is a simple test package ",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+	    {
+	        "name": "Ahmed elshora",
+	        "email": "a.shora@gmail.com"
+	    }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": 
+        {
+        	"testPackage": "src/"
+        }
+    },
+    "require": {}
+}
