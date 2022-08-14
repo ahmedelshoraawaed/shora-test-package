@@ -1,20 +1,24 @@
 {
-	"name": "shora/test-package",
-	"description" : " this is a simple test package ",
-	"type": "library",
-	"license": "MIT",
-	"authors": [
-	    {
-	        "name": "Ahmed elshora",
-	        "email": "a.shora@gmail.com"
-	    }
-    ],
-    "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": 
+    "authors": [
         {
-        	"TestPackage\\": "src/"
+            "name": "ahmed elshora",
+            "email": "a.shora@awaed.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\Services\\KafkaService\\": "src/Services/KafkaService"
         }
     },
-    "require": {}
+    "description": "service fo kafka event streaming",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "name": "vandor/kafka-service",
+    "require": {
+        "php" : "^8.0",
+        "mateusjunges/laravel-kafka": "^1.7"
+    },
+    "require-dev": {
+    },
+    "type": "library"
 }
