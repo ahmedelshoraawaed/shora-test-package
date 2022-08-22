@@ -1,5 +1,5 @@
 <?php
-namespace KafKService\Providers;
+namespace KafaKService\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
