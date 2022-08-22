@@ -12,9 +12,7 @@ class KafkaServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->publishes([            
-            __DIR__.'/../src/config/KafKaService.php'=>config_path('./kafka.php'),
-        ]);
+        
     }
 
     /**
