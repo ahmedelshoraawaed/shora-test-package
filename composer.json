@@ -22,7 +22,7 @@
         "laravel": {
             "providers": [
                 "App\\Providers\\KafkaServiceProvider"
-            ],
+            ]
         }
     }
     "require-dev": {
