@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "App\\Providers\\KafkaServiceProvider"
+                "KafKService\Providers\\KafkaServiceProvider"
             ]
         }
     },
