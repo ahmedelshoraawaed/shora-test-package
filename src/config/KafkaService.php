@@ -54,5 +54,7 @@ return [
         'password'=>env('KAFKA_SASL_PASSWORD',''),
         'mechanisms'=>env('KAFKA_SASL_MECHANISMS',''),
         'protocol'=>env('KAFKA_SASL_PROTOCOL',''),
-    ]
+    ],
+    'enable_sasl'=>env('KAFKA_ENABLE_SASL',false)
+
 ];
