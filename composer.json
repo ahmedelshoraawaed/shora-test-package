@@ -8,7 +8,7 @@
     "autoload": {
         "psr-4": {
             "App\\Services\\KafkaService\\": "src/Services/KafkaService",
-            "KafKService\\Providers\\KafkaServiceProvider\\" : "KafKService/Providers/KafkaServiceProvider"
+            "KafKService\\Providers\\" : "KafKService/Providers"
         }
     },
     "description": "service fo kafka event streaming",
