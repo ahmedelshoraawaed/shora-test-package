@@ -24,7 +24,7 @@
                 "App\\Providers\\KafkaServiceProvider"
             ]
         }
-    }
+    },
     "require-dev": {
     },
     "type": "library"
