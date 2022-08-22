@@ -18,6 +18,13 @@
         "php" : "^8.0",
         "mateusjunges/laravel-kafka": "^1.7"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\Providers\\KafkaServiceProvider"
+            ],
+        }
+    }
     "require-dev": {
     },
     "type": "library"
